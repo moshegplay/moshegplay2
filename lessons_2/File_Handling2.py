@@ -1,5 +1,10 @@
-
-
+'''
+filename="C:/Users/moshe/PycharmProjects/IPs.txt"
+    file=open(filename, "r")
+    for line in file:
+        print(line)
+        file.close()
+'''
 
 filename = "C:/Users/moshe/PycharmProjects/hello.txt"
 file =open(filename,"r")
