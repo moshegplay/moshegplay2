@@ -33,13 +33,32 @@ def menu():
             break
 
 def search_ip():
-    print("1")
+    filename = "C:/Users/moshe/PycharmProjects/IPs.txt"
+    file = open(filename, "r")
+    my_string = file.read()
+    file.close()
+    print(my_string)
+    my_list = my_string.split("\n")
+    print(type(my_list))
+    print(my_list)
 def  add_ip():
-    print("2")
+    filename = "C:/Users/moshe/PycharmProjects/IPs.txt"
+    file = open(filename, "a")
+    file.write("\n5.5.5.5" "\n6.6.6.6")
+    file.close()
+    file = open(filename, "r")
+    print(file.read())
+    file.close()
 def  delete_ip():
-    print("3")
+    filename = "C:/Users/moshe/PycharmProjects/IPs.txt"
+    file=open(filename,"r")
+
+    file.close()
 def print_IPs():
-    print("4")
+    filename = "C:/Users/moshe/PycharmProjects/IPs.txt"
+    file=open(filename,"r")
+    print(file.read())
+    file.close
 
 def search_URL():
     print("1")
