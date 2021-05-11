@@ -34,7 +34,7 @@ def IP():
         elif (true == "e"):
             print("Bye Bye...")
         else:
-            print("press m or e only!\n")
+            print("Enter m or e only!\n")
 
 
 def DNS():
@@ -61,7 +61,7 @@ def DNS():
         elif (true == "e"):
             print("Bye Bye...")
         else:
-            print("press m or e only!")
+            print("Enter m or e only!")
             continue
 
 def ip_search():
